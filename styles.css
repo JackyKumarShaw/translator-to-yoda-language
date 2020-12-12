@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Langar&display=swap');
+
+/* font-family: 'Langar', cursive; */
+/* font-family: 'JetBrains Mono', monospace; */
+
+:root {
+    --primary-color: #ffffff00;
+    --secondary-color: white;
+    --border-colour: #6EE7B7;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* for the background image */
+html {
+    background: url(images/bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+
+body {
+    font-family: 'Langar', cursive;
+}
+
+main section {
+    padding: 0.1rem;
+}
+
+nav {
+    margin-top: 0rem;
+    font-family: 'JetBrains Mono', monospace;
+    font-style: italic;
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    text-align: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    border: 0.4rem;
+    border-top: none;
+    border-bottom-style: ridge;
+    border-left-style: ridge;
+    border-right-style: ridge;
+    border-color: var(--border-colour);
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    font-size: 1.7rem;
+}
+
+.img-part {
+    float: left;
+    width: 30%;
+    padding-left: 1rem;
+}
+
+.text-part {
+    float: right;
+    width: 70%;
+    text-align: center;
+}
+
+#reading-img {
+    width: 95%;
+    height: 40vh;
+}
+
+.text-part h2 {
+    padding-right: 1rem;
+    font-size: 1.7rem;
+    margin-bottom: 0.5rem;
+    color: var(--secondary-color)
+}
+
+.text-part textarea {
+    width: 95%;
+    height: 21vh;
+    padding: 1rem;
+}
+
+#btn {
+    text-align: center;
+}
+
+#btn button {
+    border: 0.4rem;
+    background-color: var(--primary-color);
+    border-radius: 2rem;
+    border-style: ridge;
+    border-color: var(--border-colour);
+    color: var(--secondary-color);
+    font-size: 2.5rem;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: bold;
+    font-style: italic;
+    width: 90%;
+    height: 17vh;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    outline-color: var(--primary-color);
+}
+
+#speaking-img {
+    width: 100%;
+    height: 50vh;
+}
+
+footer {
+    clear: both;
+    font-family: 'Langar', cursive;
+    padding: 0.5rem 1rem;
+    background-color: var(--primary-color);
+    text-align: center;
+    color: var(--secondary-color);
+    border: 0.4rem;
+    border-bottom: none;
+    border-top-style: ridge;
+    border-left-style: ridge;
+    border-right-style: ridge;
+    border-color: var(--border-colour);
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 0rem;
+}
+
+footer div {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.link {
+    color: var(--denim);
+    text-decoration: none;
+}
