@@ -32,6 +32,9 @@ function translate(engText) {
 
 //giving input
 function ifClickDoThis() {
+    if(input.value === ""){
+        alert("Please Enter Some Text!")
+    }
     translate(input.value);
 }
 
